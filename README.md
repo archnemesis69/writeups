@@ -2,8 +2,6 @@
 
 Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've solved, covering my approach, the key steps, and what I learned on each box.
 
-> 🔗 **HTB Profile:** [your-username](https://app.hackthebox.com/users/YOUR_ID)
-
 ---
 
 ## ⚠️ Disclaimer
@@ -18,7 +16,7 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've solved, c
 
 | # | Machine | OS | Difficulty | Key Techniques | Writeup |
 |---|---------|----|-----------|----------------|---------|
-| 1 | Example | Linux | Easy | SQLi, SUID privesc | [Read](./Example.md) |
+| 1 | Management | Linux | Easy |  SUID privesc | [Read](./management/README.md) |
 |   |         |    |           |                |         |
 
 ---
@@ -28,8 +26,10 @@ Writeups for [Hack The Box](https://www.hackthebox.com/) machines I've solved, c
 ```
 .
 ├── README.md
-├── MachineName1.md
-├── MachineName2.md
+├── MachineName1/
+     ├── README.md
+     ├── images/
+├── MachineName2./
 └── images/          # Screenshots used in writeups
 ```
 
@@ -45,11 +45,7 @@ Each writeup follows this structure:
 4. **User Flag**
 5. **Privilege Escalation**
 6. **Root Flag**
-7. **Lessons Learned**
+
 
 ---
 
-## 📬 Contact
-
-- HTB: [your-username](https://app.hackthebox.com/users/YOUR_ID)
-- GitHub: [@your-username](https://github.com/your-username)
